@@ -13,13 +13,18 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
-https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
-https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt
-https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=cfp.33456789.xyz&alpn=h2&fp=randomized&allowInsecure=1&type=ws&host=cfp.33456789.xyz&path=%2F%3Fed%3D2560#CF-Pages
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=cfw.33456789.xyz&alpn=h2&fp=randomized&allowInsecure=1&type=ws&host=cfw.33456789.xyz&path=%2F%3Fed%3D2560#CF-Workers
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=nf.33456789.xyz&alpn=h2&fp=randomized&allowInsecure=1&type=ws&host=nf.33456789.xyz&path=%2Ftomdrx-vl%3Fed%3D2560#NF-VLESS
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=jpo.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=jpo.33456789.xyz&path=%2Ftomdrx-vl%3Fed%3D2560#%E5%A4%A7%E9%98%AA
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=phx1.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=phx1.33456789.xyz&path=%2Ftomdrx-vl%3Fed%3D2560#%E5%87%A4%E5%87%B0%E5%9F%8E1
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=phx2.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=phx2.33456789.xyz&path=%2Ftomdrx-vl%3Fed%3D2560#%E5%87%A4%E5%87%B0%E5%9F%8E2
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=spl1.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=spl1.33456789.xyz&path=%2Ftomdrx-vl%3Fed%3D2560#%E5%9C%A3%E4%BF%9D%E7%BD%971
+vless://48597e69-84f3-4d93-8369-a556095e7632@cdn.33456789.xyz:443?encryption=none&security=tls&sni=spl2.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=spl2.33456789.xyz&path=%2Ftomdrx-vl%3Fed%3D2560#%E5%9C%A3%E4%BF%9D%E7%BD%972
+vless://48597e69-84f3-4d93-8369-a556095e7632@azjp.33456789.xyz:443?encryption=none&security=tls&sni=azjp.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=azjp.33456789.xyz&path=%2Ftomdrxws%3Fed%3D2560#AZJP
+vless://48597e69-84f3-4d93-8369-a556095e7632@azhk.33456789.xyz:443?encryption=none&security=tls&sni=azhk.33456789.xyz&alpn=h2&fp=chrome&allowInsecure=1&type=ws&host=azhk.33456789.xyz&path=%2Ftomdrxws%3Fed%3D2560#AZHK
+trojan://tomdrx@cdn.33456789.xyz:443?security=tls&sni=wtr.33456789.xyz&alpn=h2&fp=randomized&allowInsecure=1&type=ws&host=wtr.33456789.xyz&path=%2F%3Fed%3D2560#CF-Wtrojan
+trojan://tomdrx@cdn.33456789.xyz:443?security=tls&sni=ptr.33456789.xyz&alpn=h2&fp=randomized&allowInsecure=1&type=ws&host=ptr.33456789.xyz&path=%2F%3Fed%3D2560#CF-Ptrojan
 `
 
 let urls = [];
